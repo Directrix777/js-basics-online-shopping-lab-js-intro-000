@@ -62,6 +62,8 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber)
 {
-  console.log(`I am not logged! >.<`)
-  return cardNumber
+  if(cardNumber == undefined)
+  {
+    return `Sorry, we don't have a credit card on file for you.`
+  }
 }
