@@ -24,7 +24,7 @@ function viewCart()
     return 'Your shopping cart is empty.'
   }
   var string = `In your cart, you have `
-  if(cart.length = 1)
+  if(cart.length == 1)
   {
     return `${string + cart[0].itemName} at $${cart[0].itemPrice}.`
   }
