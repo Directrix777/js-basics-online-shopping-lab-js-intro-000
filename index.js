@@ -19,7 +19,16 @@ function addToCart(item)
 
 function viewCart()
 {
-  // write your code here
+  if(cart.length < 1)
+  {
+    return 'Your shopping cart is empty.'
+  }
+  string = `In your cart, you have `
+  if(cart.length = 1)
+  {
+    return `${string + cart[0].itemName} at ${cart[0].itemPrice}.`
+  }
+  for(let i = 0; i < cart.length)
 }
 
 function total()
