@@ -26,7 +26,7 @@ function viewCart()
   var string = `In your cart, you have `
   if(cart.length = 1)
   {
-    return `${string + cart[0].itemName} at ${cart[0].itemPrice}.`
+    return `${string + cart[0].itemName} at $${cart[0].itemPrice}.`
   }
   //for(let i = 0; i < cart.length)
 }
