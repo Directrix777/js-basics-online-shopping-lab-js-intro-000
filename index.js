@@ -28,10 +28,11 @@ function viewCart()
   {
     return `${string + cart[0].itemName} at $${cart[0].itemPrice}.`
   }
-  for(let i = 0; i < cart.length; i += 1)
+  for(let i = 0; i < cart.length - 1; i += 1)
   {
-    
+    string = `${string + cart[i].itemname} at $${cart[i].itemprice}, `
   }
+  return `${string} and ${cart[cart.length - 1].itemname} at $${cart[cart.length - 1].itemprice}.`
 }
 
 function total()
