@@ -30,7 +30,7 @@ function viewCart()
   }
   for(let i = 0; i < cart.length - 1; i += 1)
   {
-    string = `${string + cart[i].itemname} at $${cart[i].itemprice}, `
+    string = `${string + cart[i].itemName} at $${cart[i].itemPrice}, `
   }
   return `${string}` //and ${cart[cart.length - 1].itemname} at $${cart[cart.length - 1].itemprice}.`
 }
