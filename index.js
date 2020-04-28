@@ -34,7 +34,7 @@ function viewCart()
     console.log(cart[i])
     string = `${string + cart[i].itemName} at $${cart[i].itemPrice}, `
   }
-  return `${string} and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
+  return `${string}and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
 }
 
 function total()
