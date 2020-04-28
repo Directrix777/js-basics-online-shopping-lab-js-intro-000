@@ -42,7 +42,7 @@ function total()
   var num = 0
   for(let i = 0; i < cart.length; i += 1)
   {
-    num += cart[i].price
+    num += cart[i].itemPrice
   }
   return num
 }
