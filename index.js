@@ -67,5 +67,5 @@ function placeOrder()
 
 function placeOrder(cardNumber)
 {
-  
+
 }
