@@ -32,7 +32,7 @@ function viewCart()
   {
     string = `${string + cart[i].itemname} at $${cart[i].itemprice}, `
   }
-  return `${string} and ${cart[cart.length - 1].itemname} at $${cart[cart.length - 1].itemprice}.`
+  return `${string}` //and ${cart[cart.length - 1].itemname} at $${cart[cart.length - 1].itemprice}.`
 }
 
 function total()
