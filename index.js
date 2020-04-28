@@ -1,37 +1,37 @@
 var cart = [];
 
-function getCart() 
+function getCart()
 {
  return cart;
 }
 
-function setCart(c) 
+function setCart(c)
 {
   cart = c;
   return cart;
 }
 
-function addToCart(item) 
+function addToCart(item)
 {
  cart.push({itemName: item, itemPrice: Math.floor(Math.random() * 100 )})
 }
 
-function viewCart() 
+function viewCart()
 {
   // write your code here
 }
 
-function total() 
+function total()
 {
   // write your code here
 }
 
-function removeFromCart(item) 
+function removeFromCart(item)
 {
   // write your code here
 }
 
-function placeOrder(cardNumber) 
+function placeOrder(cardNumber)
 {
   // write your code here
 }
