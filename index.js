@@ -28,7 +28,10 @@ function viewCart()
   {
     return `${string + cart[0].itemName} at $${cart[0].itemPrice}.`
   }
-  for(let i = 0; i < cart.length)
+  for(let i = 0; i < cart.length; i += 1)
+  {
+    
+  }
 }
 
 function total()
