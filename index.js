@@ -62,5 +62,6 @@ function removeFromCart(item)
 
 function placeOrder(cardNumber)
 {
+  console.log(`I am not logged! >.<`)
   return cardNumber
 }
