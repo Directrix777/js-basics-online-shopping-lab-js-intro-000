@@ -60,12 +60,11 @@ function removeFromCart(item)
   return `That item is not in your cart.`
 }
 
-function placeOrder()
-{
-  return `Sorry, we don't have a credit card on file for you.`
-}
-
 function placeOrder(cardNumber)
 {
-
+  var numDetect = [cardNumber]
+  if(numDetect.length < 1)
+  {
+    return `Sorry, we don't have a credit card on file for you.`
+  }
 }
