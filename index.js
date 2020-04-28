@@ -51,10 +51,10 @@ function removeFromCart(item)
 {
   for(let i = 0; i < cart.length; i += 1)
   {
-    console.log(cart)
     if(cart[i].itemName == item)
     {
-      return[...cart.slice(0, i), ...cart.slice(i + 1)]
+      cart = [...cart.slice(0, i), ...cart.slice(i + 1)]
+      return cart
     }
   }
   return `That item is not in your cart.`
